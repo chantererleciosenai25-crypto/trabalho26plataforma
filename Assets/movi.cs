@@ -13,16 +13,16 @@ public class movi : MonoBehaviour
     {
         if (Input.GetKey("d"))
 
-  transform.Translate(0, 0 , 0.2f);
+  transform.Translate(0, 0 , 0.02f);
 
 
   if (Input.GetKey("a"))
 
-  transform.Translate(0, 0 , -0.2f);
+  transform.Translate(0, 0 , -0.04f);
 
 
  if (Input.GetKey("w"))
 
-  transform.Translate(0, 0.4f , 0);
+  transform.Translate(0, 0.19f , 0);
     }
 }
