@@ -21,4 +21,11 @@ public class movimento : MonoBehaviour
                                     transform.Translate(0, 0.10f, 0); 
             }
     }
+
+
+
+
+
+
+    Physics.Checksphere(transform.Translate, 1f);
 }
