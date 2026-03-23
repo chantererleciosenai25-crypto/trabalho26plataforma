@@ -15,12 +15,12 @@ public class movi : MonoBehaviour
         
     if (Input.GetKey("d"))
 
-        transform.Translate(0, 0 , 0.02f);
+        transform.Translate(0, 0 , 0.07f);
 
 
         if (Input.GetKey("a"))
 
-        transform.Translate(0, 0 , -0.04f);
+        transform.Translate(0, 0 , -0.07f);
 
 
         if (Input.GetKey("w"))
